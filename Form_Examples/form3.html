@@ -4,49 +4,49 @@
         <title>Form-3</title>
     </head>
     <body>
-        <form>
+        <form name="form3" action="Servlet3" method="post">
             <table cellspacing="5px" cellpadding="5px" align="center" bgcolor="silver">
                 <caption><h2>Registration Form</h2></caption>
                 <tr>
                     <td>
-                        <label>First Name</label><br>
-                        <input type="text">
+                        <label for="fn">First Name</label><br>
+                        <input type="text" id="fn" name="fname">
                     </td>
                     <td>
-                        <label>Last Name</label><br>
-                        <input type="text">
+                        <label for="ln">Last Name</label><br>
+                        <input type="text" id="ln" name="lname">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label>Birthday</label><br>
-                        <input type="date">
+                        <label for="bir">Birthday</label><br>
+                        <input type="date" id="bir" name="birth">
                     </td>
                     <td>
                         <label>Gender</label><br>
-                        <input type="radio" value="male">Male
-                        <input type="radio" value="female">Female
+                        <input type="radio" value="male" name="val1" id="male">Male
+                        <input type="radio" value="female" name="val1" id="female">Female
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label>Email</label><br>
-                        <input type="email">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="em">
                     </td>
                     <td>
-                        <label>Phone Number</label><br>
-                        <input type="number">
+                        <label for="pn">Phone Number</label><br>
+                        <input type="number" id="pn" name="phone">
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td >
                         <label>Subject</label><br>
                         <select>
                             <option value="select">Choose Option</option>
                             <option value="Telugu">Telugu</option>
-                            <option value="Telugu">English</option>
-                            <option value="Telugu">Hindi</option>
-                            <option value="Telugu">Maths</option>
+                            <option value="English">English</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="Maths">Maths</option>
                         </select>
                     </td>
                 </tr>
