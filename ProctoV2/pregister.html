@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Patient SignUp</title>
+    </head>
+    <body>
+        <header>
+            <h3><center><img src="logo_Pro.png" height="30px" width="100px"></center>
+            </header></h3>
+            <p align="center">
+                <a href="home.html"><font size="5">Home</font></a>&nbsp;&nbsp;
+                |&nbsp;&nbsp;
+                <a href="doctorsv1.html"><font size="5">Doctors</font></a>&nbsp;&nbsp;
+                |&nbsp;&nbsp;
+                <a href="branches.html"><font size="5">Branches</font></a>
+                |&nbsp;&nbsp;
+                <a href="dregister.html"><font size="5">Doctor SignUp</font></a>
+                |&nbsp;&nbsp;
+                <a href="dlogin.html"><font size="5">Doctor SignIn</font></a>
+                |&nbsp;&nbsp;
+                <a href="#"><font size="5">Patient SignUp</font></a>
+                |&nbsp;&nbsp;
+                <a href="plogin.html"><font size="5">Patient SignIn</font></a>
+            </p><hr>
+        <form name="form1" action="servlet1" method="post">
+            <table cellpadding="8px" cellspacing="10px" align="center" bgcolor="#e6e6ff">
+                <caption><h3>Register Here</h3></caption>
+                <tr>
+                    <td>
+                        <label for="fn">First Name</label><br>
+                        <input type="text" id="fn" name="fname" placeholder="Full Name" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mn">Mobile Number</label><br>
+                        <select>
+                            <option value="+91(IND)">+91(IND)</option>
+                            <option value="+65(SGP)">+65(SGP)</option>
+                            <option value="+63(PHL)">+63(PHL)</option>
+                        </select>
+                        <input type="text" id="mn" name="mnum" placeholder="Mobile Number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pw">Create Password</label><br>
+                        <input type="password" name="pwd" id="pw">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">Receive relavant offers from Practo
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Patient SignUp">
+                    </td>
+                </tr>
+            </table>
+
+        </form><br><br><br><br><br><br><br><br><hr>
+        <footer>
+            <center><h3>copyright@jyotsna</h3></center>
+        </footer>
+    </body>
+</html>
